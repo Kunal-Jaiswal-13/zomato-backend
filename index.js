@@ -3,9 +3,9 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const ejs = require("ejs");
 
-const app = express();
+const app = express()
 
-const url = "mongodb://127.0.0.1/student";
+const url = "mongodb+srv://kjaiswal1103:shreeshyam1103@zomato.ohrgouj.mongodb.net/student?retryWrites=true&w=majority";
 
 const Locations = require("./models/locationId");
 const Restaurant = require("./models/restaurantdata");
